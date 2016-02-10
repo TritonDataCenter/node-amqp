@@ -1,0 +1,9 @@
+test/
+test2/
+test2src/
+Makefile
+CONTRIBUTING.md
+History.md
+core
+*.tgz
+.jshintrc

@@ -1,9 +1,12 @@
-[![build status](https://secure.travis-ci.org/postwait/node-amqp.png)](http://travis-ci.org/postwait/node-amqp)
-
-# node-amqp
+# node-joyent-amqp
 
 This is a client for RabbitMQ (and maybe other servers?). It partially
 implements the 0.9.1 version of the AMQP protocol.
+
+This is a fork of the upstream project,
+[node-amqp](https://github.com/postwait/node-amqp), with some local changes for
+improved robustness and debuggability.  This module is published as
+`joyent-amqp`.
 
 ## Table of Contents 
 
@@ -35,11 +38,11 @@ implements the 0.9.1 version of the AMQP protocol.
 
 ## Installation
 
-    npm install amqp
+    npm install joyent-amqp
 
 ## Synopsis
 
-IMPORTANT: This module only works with node v0.4.0 and later.
+IMPORTANT: This module only works with node v0.10.0 and later.
 
 An example of connecting to a server and listening on a queue.
 
